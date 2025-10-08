@@ -1,6 +1,6 @@
 # Blinkit-Sales-Dashboard-Power-BI-Project - Capstone
 ---------------------------------------------------------------------------------------------------------------------------
-A dynamic retail analytics dashboard built in Power BI to uncover sales patterns and business drivers across Blinkit’s diverse outlet network.
+A dynamic retail analytics dashboard built in Power BI to uncover sales patterns and business drivers across Blinkit’s diverse outlet network. This Project is studies the BlinkIT Grocery data to derive insights for inventory management, marketing strategies and regional operational efficiency.
 
 ---------------------------------------------------------------------------------------------------------------------------
 📌 Project Objective
