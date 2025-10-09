@@ -58,6 +58,38 @@ Fat Content Analysis:
 - Customer Ratings vs. Sales: Spotting if higher-rated items always convert into higher sales and where there’s untapped potential
 
 ---------------------------------------------------------------------------------------------------------------------------
+### Product Relationship Analysis: Visibility vs. Sales
+---------------------------------------------------------------------------------------------------------------------------
+
+import pandas as pd
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LinearRegression
+from sklearn.metrics import r2_score
+
+# Load data
+df = pd.read_excel("BlinkIT Grocery Data.xlsx")
+
+# Prepare features and target
+X = df[["Item Weight", "Item Visibility", "Rating"]].fillna(0)
+Y = df["Sales"]
+
+# Train-test split
+X_train, X_test, y_train, y_test = train_test_split(X, Y, test_size=0.2, random_state=42)
+
+# Linear regression model
+model = LinearRegression()
+model.fit(X_train, y_train)
+
+# Predictions and evaluation
+y_pred = model.predict(X_test)
+print("R2 Score:", round(r2_score(y_test, y_pred), 3))
+
+### R² Score: 0.001
+---------------------------------------------------------------------------------------------------------------------------
+Interpretation:
+---------------------------------------------------------------------------------------------------------------------------
+The chosen variables-Item Weight, Item Visibility, and Rating—do not significantly predict sales. This indicates that other factors (e.g., promotions, location, outlet type, seasonality) are likely stronger drivers of sales.
+---------------------------------------------------------------------------------------------------------------------------
 ## Business Insights
 ---------------------------------------------------------------------------------------------------------------------------
 Tier 1 locations consistently outperform in total sales across outlet types.
