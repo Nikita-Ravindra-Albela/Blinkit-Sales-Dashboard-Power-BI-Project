@@ -4,7 +4,7 @@ A dynamic retail analytics dashboard built in Power BI to uncover sales patterns
 ---------------------------------------------------------------------------------------------------------------------------
 ## Project Objective
 ---------------------------------------------------------------------------------------------------------------------------
-To analyze Blinkit’s retail performance across multiple dimensions—item types, outlet types, locations, and time—enabling stakeholders to make informed decisions about inventory, marketing, and regional operations.
+To analyze Blinkit’s retail performance across multiple dimensions - item types, outlet types, locations, and time—enabling stakeholders to make informed decisions about inventory, marketing, and regional operations.
 
 ---------------------------------------------------------------------------------------------------------------------------
 ## Dataset Summary
