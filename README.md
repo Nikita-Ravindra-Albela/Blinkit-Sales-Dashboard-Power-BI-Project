@@ -88,7 +88,7 @@ print("R2 Score:", round(r2_score(y_test, y_pred), 3))
 ---------------------------------------------------------------------------------------------------------------------------
 Interpretation:
 ---------------------------------------------------------------------------------------------------------------------------
-The chosen variables-Item Weight, Item Visibility, and Rating—do not significantly predict sales. This indicates that other factors (e.g., promotions, location, outlet type, seasonality) are likely stronger drivers of sales.
+The chosen variables-Item Weight, Item Visibility, and Rating do not significantly predict sales. This indicates that other factors (e.g., promotions, location, outlet type, seasonality) are likely stronger drivers of sales.
 ---------------------------------------------------------------------------------------------------------------------------
 ## Business Insights
 ---------------------------------------------------------------------------------------------------------------------------
