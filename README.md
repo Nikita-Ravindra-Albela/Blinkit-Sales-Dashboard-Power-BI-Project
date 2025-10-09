@@ -88,7 +88,7 @@ print("R2 Score:", round(r2_score(y_test, y_pred), 3))
 ---------------------------------------------------------------------------------------------------------------------------
 Interpretation:
 ---------------------------------------------------------------------------------------------------------------------------
-The chosen variables-Item Weight, Item Visibility, and Rating do not significantly predict sales. 
+The chosen variables-Item Weight, Item Visibility, and Rating do not significantly predict sales. Visibility Optimization is a must to showcase product options to the consumer as per their individual preference.
 ---------------------------------------------------------------------------------------------------------------------------
 ## Business Insights
 ---------------------------------------------------------------------------------------------------------------------------
