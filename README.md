@@ -1,6 +1,6 @@
 # Blinkit-Sales-Dashboard-Power-BI-Project
 ---------------------------------------------------------------------------------------------------------------------------
-A dynamic retail analytics dashboard built in Power BI to uncover sales patterns and business drivers across Blinkit’s diverse outlet network. Blinkit operates across multiple outlet types, sizes, and locations, offering hundreds of products. This dashboard highlights key drivers—from outlet performance to consumer preferences so the company can make sharper decisions about stocking, marketing, and expansion.
+A dynamic retail analytics dashboard built in Power BI to uncover sales patterns and business drivers across Blinkit’s diverse outlet network. Blinkit operates across multiple outlet types, sizes, and locations, offering hundreds of products. This dashboard highlights key drivers-from outlet performance to consumer preferences so the company can make sharper decisions about stocking, marketing, and expansion.
 ---------------------------------------------------------------------------------------------------------------------------
 ## Project Objective
 ---------------------------------------------------------------------------------------------------------------------------
