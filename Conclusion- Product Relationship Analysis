@@ -1,0 +1,121 @@
+## Summary of What Your Notebook Contains
+1. Data Cleaning
+
+Checked dtypes
+
+Filled missing values for:
+
+Item Weight
+
+Outlet Size
+
+Normalized inconsistent categories for Item Fat Content
+
+Removed duplicates
+
+2. EDA
+
+Descriptive statistics
+
+Categorical distributions (Item Type countplot)
+
+Correlation heatmap for numeric features
+
+Outlier detection (boxplots)
+
+Value counts for Item Fat Content and Item Type
+
+3. Product–Sales Relationship Analysis
+
+Sales by Item Type (bar chart)
+
+Sales by Item Fat Content
+
+Sales by Outlet Type
+
+Sales by Outlet Size
+
+Sales by Outlet Location Type
+
+Scatter plots for Item Weight vs Sales and Item Visibility vs Sales
+
+This is a complete pipeline — perfect for drawing business insights.
+
+
+## Executive Summary – Product Relationship Analysis
+
+1. Product Category Drives Significant Sales Variation
+
+Sales are not evenly distributed across product categories.
+Certain Item Types consistently outperform others, indicating that focusing inventory and marketing efforts on high-performing categories will yield immediate ROI.
+
+2. Outlet Characteristics Strongly Influence Sales
+
+Outlets differ significantly in performance:
+
+Outlet Type shows a clear sales gradient — modern retail formats outperform older or smaller formats.
+
+Outlet Size correlates positively with sales; larger outlets generate higher average revenue, likely due to broader assortments and better footfall.
+
+Higher-tier locations (urban/metropolitan) outperform Tier 2 & Tier 3, showing the impact of demographics on demand.
+
+3. Product Visibility Has Mixed Impact on Sales
+
+Your scatter plot shows a weak correlation between visibility and sales, suggesting:
+
+High visibility does NOT always translate into higher sales.
+
+Some high-visibility items may be staples kept in stock but not purchased frequently.
+
+This indicates opportunities to improve merchandising strategy, especially for slow-moving but high-visibility products.
+
+4. Item Weight Has No Strong Relationship with Sales
+
+Weight-based items (fruits, vegetables, packaged goods) do not show a consistent trend with sales volumes.
+This suggests weight is not a primary decision factor for customers.
+
+5. Fat Content Shows Predictable Performance Patterns
+
+Sales vary by Item Fat Content, with:
+
+Regular-fat items often selling more than low-fat variants.
+
+This aligns with mass-market consumer preferences, especially in general grocery environments.
+
+This insight helps in demand forecasting and stocking decisions.
+
+6. Category Mix Matters More Than Individual Attributes
+
+From your barplots:
+
+Item Type is the strongest driver of sales among all product-level features.
+
+This indicates that customer choices are category-driven (e.g., dairy, snacks, beverages) rather than driven by product micro-features like weight or fat content.
+
+7. Outlet Establishment Year Has Limited Impact
+
+Older outlets do not consistently outperform or underperform newer ones.
+This suggests:
+
+Performance is more influenced by location and type rather than age.
+
+## High-Level Business Recommendations
+1. Focus on Best-Performing Product Categories
+
+Increase inventory depth and visibility for categories with the highest average sales.
+
+2. Tailor Outlet Strategy by Format and Location
+
+Since outlet type and location strongly affect revenue:
+
+Expand assortments in high-performing outlets
+
+Optimize SKUs in lower-tier or smaller outlets
+
+3. Improve Merchandising for Low-Selling High-Visibility Products
+
+Revisit planograms and promotions for items with high visibility but low sales.
+
+4. Optimize Low-Fat vs Regular Category Pricing
+
+Given the sales patterns, regular-fat items may require better promotional planning or stock priority.
